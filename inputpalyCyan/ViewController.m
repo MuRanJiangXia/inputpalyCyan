@@ -47,8 +47,6 @@
     [_cyTextField setAutocorrectionType:UITextAutocorrectionTypeNo];
     [_cyTextField setAutocapitalizationType:UITextAutocapitalizationTypeNone];
     _cyTextField.keyboardType = UIKeyboardTypeNumberPad;
-    _cyTextField.backgroundColor = [UIColor cyanColor];
-    _cyTextField.placeholder = @"输入。。";
     _cyTextField.clearButtonMode = UITextFieldViewModeNever;
     _cyTextField.font = [UIFont systemFontOfSize:14];
     _cyTextField.delegate = self;
